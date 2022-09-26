@@ -57,6 +57,7 @@ Global Styles
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -213,6 +214,9 @@ Stripe Styles
   }
   .signin-btn {
     display: inline-block;
+  }
+  .signin-btn a {
+    color: #fff;
   }
   .nav-links {
     display: block;
